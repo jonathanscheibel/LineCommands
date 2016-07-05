@@ -6,7 +6,7 @@ import java.util.List;
 
 public class CriacaoScriptExemplo {
 
-	final static String meuArquivo = "/home/jonathan/meuArquivo.txt";
+	final static String meuArquivo = "/home/jonathan/meuArquivo2.txt";
 
 	public void criarScript() {
 		escreverArquivo();
