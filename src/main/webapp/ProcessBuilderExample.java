@@ -30,9 +30,9 @@ public class ProcessBuilderExample {
 		
 		// build the system command we want to run
 		List<String> commands = new ArrayList<String>();
-		commands.add("/bin/sh");
-		commands.add("-c");
-		commands.add("ls -lah");
+		commands.add("uname");
+//		commands.add("-c");
+		commands.add("-a");
 		
 		// execute the command
 		SystemCommandExecutor commandExecutor = new SystemCommandExecutor(commands);
