@@ -6,9 +6,9 @@ import java.util.List;
 
 public class CriacaoScriptExemplo {
 
-	final static String meuArquivo = "/home/jonathan/meuArquivo2.txt";
+	private final static String meuArquivo = "/home/jonathan/meuArquivo2.txt";
 
-	public void criarScript() { 
+	public void criarScript() {     //dasdaasdasd
 		escreverArquivo();
 		atribuirPermissao(meuArquivo);
 	}
