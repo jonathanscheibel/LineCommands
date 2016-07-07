@@ -8,7 +8,7 @@ public class CriacaoScriptExemplo {
 
 	final static String meuArquivo = "/home/jonathan/meuArquivo2.txt";
 
-	public void criarScript() {
+	public void criarScript() { 
 		escreverArquivo();
 		atribuirPermissao(meuArquivo);
 	}
